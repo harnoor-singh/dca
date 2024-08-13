@@ -169,8 +169,8 @@ Regression
 ==========
 No methods for regression are included in this library, as the models are simple enough to be implemented in any regression package. I recommend using `scipy.optimize.least_squares <https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.least_squares.html>`_.
 
-For detailed derivation and argument for regression techniques, please see SPE-201404-MS `Optimization Methods for Time–Rate–Pressure Production Data Analysis using Automatic Outlier Filtering and Bayesian Derivative Calculations  <https://www.onepetro.org/conference-paper/SPE-201404-MS>`_.
-Additionally, you may view my `blog post <https://dsfulf.github.io/blog/nonlin_reg/nonlin_reg.html>_` on the topic. The Jupyter Notebook is available `here <https://github.com/dsfulf/blog/blob/master/nonlin_reg/nonlin_reg.ipynb>_`.
+For detailed derivation and argument for regression techniques, please see `SPE-201404-MS -- Optimization Methods for Time–Rate–Pressure Production Data Analysis using Automatic Outlier Filtering and Bayesian Derivative Calculations <https://www.onepetro.org/conference-paper/SPE-201404-MS>`_.
+Additionally, you may view my `blog post <https://dsfulf.github.io/blog/nonlin_reg/nonlin_reg.html>`_ on the topic. The Jupyter Notebook is available `here <https://github.com/dsfulf/blog/blob/master/nonlin_reg/nonlin_reg.ipynb>`_.
 
 The following is an example of how to use the `THM` model with `scipy.optimize.least_squares`.
 
