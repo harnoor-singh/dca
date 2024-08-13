@@ -250,7 +250,7 @@ The following is an example of how to use the `THM` model with `scipy.optimize.l
         fun=lambda params, time, rate: residuals(params, time, rate),  # residuals function
         bounds=list(zip(*bounds)),  # unpack bounds into list of tuples
         x0=[np.mean(p) for p in bounds],  # initial guess, mean works well enough
-        args=(time, rate),  # additoinal arguments to `fun`
+        args=(time, rate),  # additional arguments to `fun`
         loss='soft_l1',  # robust loss function
         f_scale=.35  # affects outlier senstivity of the regression, larger values are more sensitive
     )
