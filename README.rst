@@ -238,8 +238,6 @@ The following is an example of how to use the `THM` model with `scipy.optimize.l
 
 
     rate, time = load_data()
-    data_q = rate
-    data_t = time
     rate, time = filter_buildup(rate, time)  # filter out buildup data
     rate = jitter_rates(rate)  # add small jitter to rates to improve gradient descent
     bounds = Bounds(  # these ***are not general***, they must be calibrated to your data
